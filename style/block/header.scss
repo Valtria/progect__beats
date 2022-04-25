@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__logo{
+    width: 40px;
+    height: 40px;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__contact{
+    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  margin-bottom: 97px;
+  // width: 915px;
+  // margin: auto;
+}
+
+.welcome-page{
+  .container{
+    padding-top: 24px;
+  }
+}
+
+.menu__item{
+  display: flex;
+  gap: 29px;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact__namber{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}

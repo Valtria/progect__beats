@@ -1,0 +1,43 @@
+body {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #292929;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+body .delivery {
+  color: #FFFFFF;
+  background-color: #181818;
+}
+
+.container {
+  height: 652px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: auto;
+  width: 1100px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}

@@ -1,0 +1,39 @@
+.heading{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  /* or 108% */
+  text-transform: uppercase;
+}
+
+.main-content__text{
+  p{
+    font-size: 21px;
+    line-height: 25px;
+  }
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-bottom: 70px;
+}
+
+.discription__item{
+  display: flex;
+  gap: 18px;
+  width: 660px;
+  .discription__item--main{
+    display: flex;
+    gap: 11px;
+
+    p{
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  .img{
+    width: 65px;
+    height: 80px;
+  }
+}

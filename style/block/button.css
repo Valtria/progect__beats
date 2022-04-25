@@ -1,0 +1,20 @@
+.button {
+  padding: 18px 41px;
+  background-color: #E01F3D;
+  border-radius: 100px;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  width: 86px;
+}
+.button:hover {
+  background-color: #CA1B36;
+}
+
+.button__item {
+  color: #E01F3D;
+}
+.button__item:hover {
+  color: #000000;
+}
